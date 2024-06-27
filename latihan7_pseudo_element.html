@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Css</title>
+</head>
+
+<style>
+p::first-letter{
+    font-size: 50px;
+    color: red;
+}
+p::first-line{
+    font-style: bold;
+    font-size: 30px;
+    background-color: yellow;
+}
+::marker{
+    color: red;
+}
+[title~="prodi"]{
+    background-color: yellow;
+}
+
+</style>
+
+<body>
+    <p>Awal berdirinya STMIK Kaputama melalui pendirian Pusat Pendidikan
+        Pelatihan Informatika Komputer dan Kewirausahaan (P3IK) Kaputama, yang
+        merupakan sebuah lembaga pendidikan dan pelatihan yang dibawah naungan
+        Yayasan Pendidikan Teknologi Informasi Mutiara (YPTIM) oleh Bapak Dr.
+        Parlindungan Purba, SH., MM., (alm) dr. Maria Betty Sitanggang,SpK-K.,
+        Drs. Irwanto Tampubolon, M.Pd. dan Dra. Veronika Sitanggang, M.Psi.
+        Kaputama merupakan singkatan dari Karya Putra Utama.</p>
+
+        <h3 title="prodi">Program Studi</h3>
+        <ol type="1">
+            <li>Sistem Informasi</li>
+            <li>Teknik Informatika</li>
+            <li>Manajemen Informatika</li>
+            <li>Komputerisasi Akuntansi</li>
+        </ol>
+</body>
+</html>

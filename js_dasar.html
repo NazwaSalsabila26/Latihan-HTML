@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar JavaScript</title>
+</head>
+<body>
+    <img id="emoji" src="image/emoji1.jpeg" width="100px">
+    <button onclick="document.getElementById('emoji').src='image/emoji1.jpeg'">
+        emoji-1
+    </button>
+    <button onclick="document.getElementById('emoji').src='image/emoji2.jpeg'">
+        emoji-1
+    </button>
+
+    <hr>
+    <h1 id="teks">Contoh Teks Yang Akan Diubah Style nya</h1>
+    <button
+        onclick="document.getElementById('teks').style.backgroundColor='yellow'">
+        Ubah Background Color
+    </button>
+
+    <hr>
+    <h3>Contoh Penggunaan innerHTML</h3>
+    <p id="coba"></p>
+    <script>
+        document.getElementById("coba").innerHTML =
+        "Hallo Tampan dan Cantik";
+    </script>
+
+    <hr>
+    <h3>Contoh Penggunaan document.write</h3>
+    <p id="coba"></p>
+    <script>
+        document.write("Ayo Semangat Belajar Web Desain")
+    </script>
+
+    <hr>
+    <h3>Contoh Penggunaan window.alert()</h3>
+    <script>
+        window.alert("Ini adalah pesan menggunakanwindow.alert()");
+    </script>
+
+    <hr>
+    <h3>Mencoba Print Halaman Web</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Veritatis nobis sapiente eius eos atque voluptates id aliquid. Molestiae, dignissimos. Voluptatibus quibusdam doloremque, laudantium rerum culpa fugiat aliquid voluptate illum recusandae.</p>
+        <button onclick="window.print()">Print</button>
+</body>
+</html>

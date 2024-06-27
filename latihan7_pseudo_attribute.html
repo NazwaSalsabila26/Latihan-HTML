@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Css</title>
+</head>
+<style>
+input[type="text"]{
+    border-radius:5px;
+    border:solid 1px lightblue;
+    padding:8px;
+    width:300px;
+}
+input[type="submit"]{
+    background-color:blue;
+    color:white;
+    padding:10px;
+    border-radius:12px;
+    border:solid 1px blue;
+}
+</style>
+<body>
+    <form>
+        <fieldset>
+            <legend>Formulir Pendaftaran</legend>
+            <table>
+                <tr>
+                    <td>Nama Depan</td>
+                    <td>:</td>
+                    <td><input type="text" name="nama_depan"></td>
+                </tr>
+                <tr>
+                    <td>Nama Belakang</td>
+                    <td>:</td>
+                    <td><input type="text" name="nama_belakang"></td>
+                </tr>
+                <tr>
+                    <td colspan="3" align="rigth">
+                        <input type="submit" value="Simpan">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,17 @@
+/* jika link belum dikunjungi */
+a:link{
+color: red;
+}
+/* jika link sudah pernah dikunjungi */
+a:visited{
+color:green;
+}
+/* saat kursor berada di atas link */
+a:hover{
+color: lightblue;
+}
+/* saat link sedang di klik */
+a:active{
+color: blue;
+}
+

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>display inline and block</title>
+</head>
+<style>
+li.inline {
+    display: inline;
+}
+
+span {
+    background-color: rgb(239, 185, 115);
+}
+span.block {
+    display: block;
+}
+</style>
+<body>
+    <h3>Sebelum Menggunakan display : inline</h3>
+    <ul>
+        <li><a href="#">Link 1</a></li>
+        <li><a href="#">Link 2</a></li>
+        <li><a href="#">Link 3</a></li>
+    </ul>
+    <h3>Setelah Menggunakan display : inline</h3>
+    <ul>
+        <li class="inline"><a href="#">Link 1</a></li>
+        <li class="inline"><a href="#">Link 2</a></li>
+        <li class="inline"><a href="#">Link 3</a></li>
+    </ul>
+
+    <h3>Sebelum menggunakan display:block</h3>
+        <span>Teks Pertama</span>
+        <span>Teks Kedua</span>
+        <span>Teks Ketiga</span>
+    <h3>Setelah menggunakan display:block</h3>
+        <span class="block">Teks Pertama</span>
+        <span class="block">Teks Kedua</span>
+        <span class="block">Teks Ketiga</span>
+</body>
+</html>
